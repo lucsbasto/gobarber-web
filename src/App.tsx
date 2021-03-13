@@ -1,9 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return <div>Olá</div>;
-}
+const App: React.FC = () => <h1>Olá</h1>;
 
 export default App;
